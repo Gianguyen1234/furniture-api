@@ -1,9 +1,11 @@
 const Category = require('../models/Category');
 
-// Search for a category by name
+// Search for a category by name (case-insensitive, trims whitespace)
 exports.searchCategoryByName = async (req, res) => {
   try {
-    const category = await Category.findOne({ name: req.params.name });
+    const categoryName = req.params.name.trim();
+    const category = await Category.findOne({ name: new RegExp(`^${categoryName}$`, 'i') });
+
     if (!category) {
       return res.status(404).json({ message: 'Category not found' });
     }
@@ -12,6 +14,7 @@ exports.searchCategoryByName = async (req, res) => {
     res.status(500).json({ message: 'Server Error', error: err.message });
   }
 };
+
 // Create a category
 exports.createCategory = async (req, res) => {
   const { name, description } = req.body;
