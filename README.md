@@ -7,6 +7,7 @@ The Furniture API provides functionality for managing furniture products, user a
 - User Authentication (Register, Login, Token-based authentication with JWT)
 - Role-based Access Control (Admin and User roles)
 - CRUD operations for furniture products, orders, reviews, and categories
+- Unique feature: seach by category name
 
 ## Tech Stack
 
