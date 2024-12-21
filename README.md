@@ -1,6 +1,6 @@
 # Furniture API
 
-The Furniture API provides functionality for managing furniture products, user authentication, orders, reviews, and categories. This RESTful API is built using Node.js, Express.js, and MongoDB. It includes endpoints for user registration, login, and managing furniture products, orders, and reviews.
+The Furniture API provides functionality for managing furniture products, user authentication, orders, reviews, and categories. This RESTful API is built using Node.js, Express.js, and MongoDB. 
 
 ## Features
 
