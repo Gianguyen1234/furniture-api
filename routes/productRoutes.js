@@ -7,7 +7,7 @@ const {
   deleteProduct,
 } = require('../controllers/productController');
 const authMiddleware = require('../middleware/authMiddleware');
-const roleMiddleware = require('../middleware/roleMiddleware'); // Assuming you will create this
+const roleMiddleware = require('../middleware/roleMiddleware'); 
 
 const router = express.Router();
 
