@@ -50,7 +50,7 @@ https://furniture-api-1-8h05.onrender.com/
 ```
 
 ## API Endpoints
-
+Checkout the document on Wiki: https://github.com/Gianguyen1234/furniture-api/wiki
 
 ## Middleware
 
