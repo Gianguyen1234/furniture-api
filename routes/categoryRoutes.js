@@ -9,7 +9,6 @@ const {
 const { searchCategoryByName} = require('../controllers/categoryController');
 const router = express.Router();
 
-// Routes
 router.post('/', createCategory); // Create a category
 router.get('/', getCategories); // Get all categories
 router.get('/:id', getCategoryById); // Get a single category
