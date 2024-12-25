@@ -1,6 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
+const cors = require('cors'); // Import CORS middleware
 const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 const orderRoutes = require('./routes/orderRoutes');
@@ -11,6 +12,9 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
+
+// Enable CORS for all origins
+app.use(cors());
 
 // Connect to MongoDB
 const dbConfig = require('./config/db');
