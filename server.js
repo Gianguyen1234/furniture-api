@@ -22,7 +22,7 @@ dbConfig();
 
 // Routes
 app.use('/api/auth', authRoutes);
-app.use('/api/products', productRoutes); // Add product routes
+app.use('/api/products', productRoutes); 
 app.use('/api/orders', orderRoutes); 
 app.use('/api/reviews', reviewRoutes);
 app.use('/api/categories', categoryRoutes);
