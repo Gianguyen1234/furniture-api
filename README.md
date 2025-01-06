@@ -1,6 +1,7 @@
 # Furniture API
 
-The Furniture API provides functionality for managing furniture products, user authentication, orders, reviews, and categories. This RESTful API is built using Node.js, Express.js, and MongoDB. 
+Build with techstack like: Nodejs, express( framework of Node), cors(crossorigin, I have alreaddy published the api and It's open and free for anyone to use). About the database, I'm using mongodb, you can check it at the env file. Finally, for auth, I use JWT to save the token.
+The purpose i built this api is for my multiplaform furniture webapp. If you want to see the process of building this project, you can follow my youtube as the name Holy_Dev
 
 ## Features
 
