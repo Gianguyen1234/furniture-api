@@ -47,7 +47,7 @@ The purpose i built this api is for my multiplaform furniture webapp. If you wan
 
 The API is deployed on Render at:
 ```
-https://furniture-api-1-8h05.onrender.com/
+[https://furniture-api-1-8h05.onrender.com/](https://furniture-api-i01f.onrender.com/)
 ```
 
 ## API Endpoints
