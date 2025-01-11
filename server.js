@@ -8,7 +8,7 @@ const orderRoutes = require('./routes/orderRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const favoriteRoutes = require('./routes/favoriteRoutes'); // Import the favorite routes
-
+const couponRoutes = require('./routes/couponRoutes');
 
 dotenv.config();
 
@@ -29,6 +29,7 @@ app.use('/api/orders', orderRoutes);
 app.use('/api/reviews', reviewRoutes);
 app.use('/api/categories', categoryRoutes);
 app.use('/api/favorites', favoriteRoutes); // Register the favorite routes
+app.use('/api/coupons', couponRoutes);
 
 
 const PORT = process.env.PORT || 5000;
