@@ -11,7 +11,9 @@ const CouponSchema = new mongoose.Schema({
   expiry: { type: Date }, // Expiry date
   usageLimit: { type: Number }, // Max number of uses
   usedCount: { type: Number, default: 0 }, // Tracks the number of times the coupon has been used
-  createdAt: { type: Date, default: Date.now },
+  stackable: { type: Boolean, default: true }, // Indicates if it can be combined with other coupons
+  exclusions: [{ type: String }], // Array of coupon codes it cannot be combined with
+  createdAt: { type: Date, default: Date.now }, // Creation timestamp
 });
 
 module.exports = mongoose.model('Coupon', CouponSchema);
