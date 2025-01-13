@@ -4,7 +4,7 @@ const CouponSchema = new mongoose.Schema({
   code: { type: String, required: true, unique: true }, // Unique coupon code
   type: { type: String, enum: ['flat', 'percentage'], required: true }, // Discount type
   value: { type: Number, required: true }, // Discount value
-  productIds: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Product' }], // Specific products (optional)
+  productIds: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Product' }], // Specific products 
   category: { type: String }, // Apply to a specific category (optional)
   global: { type: Boolean, default: false }, // Apply to all products
   minPurchase: { type: Number, default: 0 }, // Minimum purchase to apply
