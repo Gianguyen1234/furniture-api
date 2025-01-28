@@ -10,6 +10,8 @@ const categoryRoutes = require('./routes/categoryRoutes');
 const favoriteRoutes = require('./routes/favoriteRoutes'); // Import the favorite routes
 const couponRoutes = require('./routes/couponRoutes');
 const inventoryRoutes = require('./routes/inventoryRoutes');
+const paymentRoutes = require('./routes/paymentRoutes');
+const furnitureStoreRoutes = require('./routes/furnitureStoreRoutes');
 
 dotenv.config();
 
@@ -23,6 +25,7 @@ app.use(cors());
 const dbConfig = require('./config/db');
 dbConfig();
 
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/products', productRoutes); 
@@ -32,6 +35,8 @@ app.use('/api/categories', categoryRoutes);
 app.use('/api/favorites', favoriteRoutes); // Register the favorite routes
 app.use('/api/coupons', couponRoutes);
 app.use('/api/inventory', inventoryRoutes);
+app.use('/api/payments', paymentRoutes);
+app.use('/api/stores', furnitureStoreRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

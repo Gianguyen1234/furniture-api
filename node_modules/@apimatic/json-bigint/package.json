@@ -1,0 +1,35 @@
+{
+  "name": "@apimatic/json-bigint",
+  "version": "1.2.0",
+  "description": "JSON.parse with bigints support",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "index.js",
+    "lib/parse.js",
+    "lib/stringify.js",
+    "types/index.d.ts"
+  ],
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -R spec --check-leaks test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:apimatic/json-bigint.git"
+  },
+  "keywords": [
+    "JSON",
+    "bigint",
+    "parse",
+    "json"
+  ],
+  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "contributors": [
+    "Wajahat Iqbal <wajahat.iqbal@apimatic.io>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0"
+  }
+}

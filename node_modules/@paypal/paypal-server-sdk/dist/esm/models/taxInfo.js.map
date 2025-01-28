@@ -1,0 +1,1 @@
+{"version":3,"file":"taxInfo.js","sourceRoot":"","sources":["../../../src/models/taxInfo.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEH,OAAO,EAAE,MAAM,EAAU,MAAM,EAAE,MAAM,WAAW,CAAC;AACnD,OAAO,EAAa,eAAe,EAAE,MAAM,aAAa,CAAC;AAUzD,MAAM,CAAC,MAAM,aAAa,GAAoB,MAAM,CAAC;IACnD,KAAK,EAAE,CAAC,QAAQ,EAAE,MAAM,EAAE,CAAC;IAC3B,SAAS,EAAE,CAAC,aAAa,EAAE,eAAe,CAAC;CAC5C,CAAC,CAAC"}

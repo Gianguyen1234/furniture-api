@@ -1,0 +1,1 @@
+{"version":3,"file":"supplementaryPurchaseData.js","sourceRoot":"","sources":["../../../src/models/supplementaryPurchaseData.ts"],"names":[],"mappings":";AAAA;;;;GAIG;;;AAEH,oCAA6D;AAUhD,QAAA,+BAA+B,GAAsC,IAAA,eAAM,EACtF;IACE,SAAS,EAAE,CAAC,YAAY,EAAE,IAAA,iBAAQ,EAAC,IAAA,eAAM,GAAE,CAAC,CAAC;IAC7C,WAAW,EAAE,CAAC,eAAe,EAAE,IAAA,iBAAQ,EAAC,IAAA,eAAM,GAAE,CAAC,CAAC;CACnD,CACF,CAAC"}

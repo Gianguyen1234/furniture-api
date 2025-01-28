@@ -1,0 +1,1 @@
+{"version":3,"file":"assuranceDetails.js","sourceRoot":"","sources":["../../../src/models/assuranceDetails.ts"],"names":[],"mappings":";AAAA;;;;GAIG;;;AAEH,oCAA8D;AAUjD,QAAA,sBAAsB,GAA6B,IAAA,eAAM,EAAC;IACrE,eAAe,EAAE,CAAC,kBAAkB,EAAE,IAAA,iBAAQ,EAAC,IAAA,gBAAO,GAAE,CAAC,CAAC;IAC1D,uBAAuB,EAAE,CAAC,2BAA2B,EAAE,IAAA,iBAAQ,EAAC,IAAA,gBAAO,GAAE,CAAC,CAAC;CAC5E,CAAC,CAAC"}

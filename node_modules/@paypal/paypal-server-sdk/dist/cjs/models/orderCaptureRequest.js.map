@@ -1,0 +1,1 @@
+{"version":3,"file":"orderCaptureRequest.js","sourceRoot":"","sources":["../../../src/models/orderCaptureRequest.ts"],"names":[],"mappings":";AAAA;;;;GAIG;;;AAEH,oCAA2D;AAC3D,uFAG4C;AAQ/B,QAAA,yBAAyB,GAAgC,IAAA,eAAM,EAAC;IAC3E,aAAa,EAAE;QACb,gBAAgB;QAChB,IAAA,iBAAQ,EAAC,IAAA,aAAI,EAAC,cAAM,OAAA,yEAAsC,EAAtC,CAAsC,CAAC,CAAC;KAC7D;CACF,CAAC,CAAC"}
